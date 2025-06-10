@@ -1,0 +1,13 @@
+name: MinWorld
+main: site.ichocomilk.minworld.MinWorldPlugin
+version: 1.0.0
+
+commands:
+  mwsave:
+    permission: "mw.save"
+    permission-message: "§cYou need the permission 'mw.save' "
+    description: "Convert and save a world in minworld format"
+  mwload:
+    permission: "mw.load"
+    permission-message: "§cYou need the permission 'mw.load' "
+    description: "Load a world in minworld format"
